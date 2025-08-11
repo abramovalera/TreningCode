@@ -1,4 +1,4 @@
-package HW_2;
+package HW_2_Class;
 // создаю публчный класс
 public class Rectangle {
     //объявляю 2 поля

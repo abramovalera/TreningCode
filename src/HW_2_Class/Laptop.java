@@ -1,4 +1,4 @@
-package HW_2;
+package HW_2_Class;
 
 public class Laptop {
     String brand;
@@ -26,7 +26,7 @@ public class Laptop {
     }
     public void printInfo(){
         System.out.println("Бренд ноутбука: " + brand);
-        System.out.println("Цена: " + price + " руб.");
+        System.out.println("Цена: " + price + "  руб.");
     }
 
 }

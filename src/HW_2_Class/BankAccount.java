@@ -1,4 +1,4 @@
-package HW_2;
+package HW_2_Class;
 
 //deposit - значит занести на счет денег
 //Например: положить на счет 500 р -> balance=balance + 500
