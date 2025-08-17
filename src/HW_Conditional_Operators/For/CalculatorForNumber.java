@@ -2,7 +2,7 @@ package HW_Conditional_Operators.For;
 
 import java.util.Scanner;
 
-public class СalculatorForNumber {
+public class CalculatorForNumber {
     public static void main(String[] args) {
         calculatorForNumber();
     }

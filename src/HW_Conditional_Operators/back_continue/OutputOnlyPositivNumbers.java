@@ -1,4 +1,4 @@
-package HW_Conditional_Operators.beack_countine;
+package HW_Conditional_Operators.back_continue;
 
 import java.util.Scanner;
 
@@ -14,10 +14,15 @@ public class OutputOnlyPositivNumbers {
             System.out.print("Ввод:");
             int a = scanner.nextInt();
 
+            if (a == 0) {
+                break;
+            }
+
             if (a < 0) {
                 continue;
             }
             System.out.println("Число: " + a);
         }
+        scanner.close();
     }
 }

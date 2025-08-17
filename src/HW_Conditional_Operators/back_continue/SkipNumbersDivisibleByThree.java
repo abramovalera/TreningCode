@@ -1,4 +1,4 @@
-package HW_Conditional_Operators.beack_countine;
+package HW_Conditional_Operators.back_continue;
 
 public class SkipNumbersDivisibleByThree {
     public static void main(String[] args) {
