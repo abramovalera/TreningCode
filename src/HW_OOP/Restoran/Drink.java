@@ -1,12 +1,17 @@
 package HW_OOP.Restoran;
 
 public class Drink implements Dish {
- double temperature;
- double volume;
+    String name;
+    int volume;
+
+    public Drink(String name, int volume) {
+        this.name = name;
+        this.volume = volume;
+    }
 
     @Override
-    public void getDisription() {
-
+    public String getDescription() {
+        return name + " Объем " + volume;
     }
 }
 

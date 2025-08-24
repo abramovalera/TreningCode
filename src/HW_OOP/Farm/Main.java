@@ -6,7 +6,7 @@ public class Main {
         Farm cowFarm = new Farm(cow1);
         cowFarm.manageAnimal();
 
-        FarmAnimal chicken1 = new Cow();
+        FarmAnimal chicken1 = new Chicken();
         Farm chickenFarm = new Farm(chicken1);
         chickenFarm.manageAnimal();
     }

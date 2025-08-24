@@ -1,13 +1,13 @@
 package HW_OOP.Restoran;
 
 public class Menu {
-    // не очень понятно как выполнить задание
-    // В подсказке написанно используй интерфейсы и коллекции, но коллекции я не проходил
-    // + List тоже
-    public void addDish(){
+    Dish dish;
 
+    void setDish(Dish dish) {
+        this.dish = dish;
     }
-    public  void printMenu(){
 
+    void printMenu() {
+        System.out.println("Сегодня в меню: " + dish.getDescription());
     }
 }
