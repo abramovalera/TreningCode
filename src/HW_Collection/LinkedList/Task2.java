@@ -1,15 +1,17 @@
 package HW_Collection.LinkedList;
-
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Task2 {
     public static void main(String[] args) {
-        ArrayList<String> threeTask = new ArrayList<>();
+        LinkedList<String> tasks = new LinkedList<>();
 
-        threeTask.add("Создать документ");
-        threeTask.add("Сохранить и отправить на почту");
-        threeTask.add("Распечатать");
+        tasks.add("Сделать отчет");
+        tasks.add("Проверить почту");
+        tasks.add("Позвонить начальнику");
 
-
+        while (!tasks.isEmpty()) {
+            String task = tasks.poll();      // берем и удаляем первую задачу
+            System.out.println("Выполняю задачу: " + task);
+        }
     }
 }

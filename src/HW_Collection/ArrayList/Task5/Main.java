@@ -12,7 +12,7 @@ public class Main {
         maxNumbers.add(34634);
         maxNumbers.add(0);
 
-        int max = 0;
+        int max = Integer.MIN_VALUE;
 
         for (Integer i : maxNumbers) {
             if (max < i) {
