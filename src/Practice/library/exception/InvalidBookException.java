@@ -1,4 +1,4 @@
-package Practice_6.library.exception;
+package Practice.library.exception;
 
 //непроверяемый
 public class InvalidBookException extends RuntimeException {

@@ -1,4 +1,4 @@
-package HW.Generics;
+package HW.Exc_Gener.Generics;
 
 public class Pair<T, A> {
     private T first;
@@ -40,8 +40,6 @@ public class Pair<T, A> {
 
         System.out.println(pair2.getSecond());
         System.out.println(pair2.getFirst());
-
-
     }
 
 }

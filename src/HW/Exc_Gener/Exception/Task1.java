@@ -1,4 +1,4 @@
-package HW.Exception;
+package HW.Exc_Gener.Exception;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

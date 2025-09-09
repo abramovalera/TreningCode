@@ -1,4 +1,4 @@
-package HW.Exception;
+package HW.Exc_Gener.Exception;
 
 public class Task3 {
     public static void main(String[] args) {

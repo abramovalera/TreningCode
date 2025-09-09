@@ -1,4 +1,4 @@
-package HW.Generics;
+package HW.Exc_Gener.Generics;
 
 public class Box<T> {
     private T item; // тут храним объект любого типа

@@ -1,4 +1,4 @@
-package HW.Generics;
+package HW.Exc_Gener.Generics;
 
 public class GenericMetod {
     public static void main(String[] args) {

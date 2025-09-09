@@ -1,7 +1,7 @@
-package Practice_6.library.exception;
+package Practice.library.exception;
 
-import Practice_6.library.Book;
-import Practice_6.library.Library;
+import Practice.library.Book;
+import Practice.library.Library;
 
 public class Main {
     public static void main(String[] args) {

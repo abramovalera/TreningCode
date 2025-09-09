@@ -1,7 +1,7 @@
-package Practice_6.library;
+package Practice.library;
 
-import Practice_6.library.exception.BookNotFoundException;
-import Practice_6.library.exception.InvalidBookException;
+import Practice.library.exception.BookNotFoundException;
+import Practice.library.exception.InvalidBookException;
 
 import java.util.ArrayList;
 import java.util.List;
